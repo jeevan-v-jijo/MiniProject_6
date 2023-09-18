@@ -7,7 +7,7 @@ app.use(express.static("public"))
 const mongoose = require("mongoose")
 
 
-mongoose.connect("mongodb+srv:jeevanvjijo07:test123@cluster0.ufqvttc.mongodb.net/tododb",{useNewUrlParser:true})
+mongoose.connect("mongodb+srv://jeevanvjijo07:test123@cluster0.ufqvttc.mongodb.net/tododb",{useNewUrlParser:true})
 
 app.use(express.static("public"))
 //Schema
